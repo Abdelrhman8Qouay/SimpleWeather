@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: none;
+}
+
+:root {
+    --primary-color: #786dd5;
+    --secondary-color: #fff;
+    --font-size-bigtixt: 23px;
+}
+
+
+
+label {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+}
+p {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+}
+h3 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.4em;
+  color: var(--secondary-color);
+  text-align: center;
+}
+h5 {
+  font-size: 1.2em;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+body {
+    height: 58.7rem;
+    position: relative;
+    background-image: url(https://images8.alphacoders.com/105/1057166.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain-circle {
+
+}
+
+#move-words {
+    background-color: transparent;
+    font-weight: 500;
+    box-shadow: 0 0 11px 1px black;
+    font-size: 1.4rem;
+}
+
+.info-btn {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.contain-weather {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 700px;
+    padding: 10px;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0 0 14px 2px;
+    transition: all 1s;
+
+}
+.input-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain-weather .input-choice input{
+  border-radius: 8px;
+  padding: 3px;
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-size: 1rem;
+}
+.contain-weather .input-choice input:focus{
+  outline: none;
+}
+
+.show-screen {
+    width: 90%;
+    margin: auto;
+}
+@media (max-width: 450px) {
+  h3 {
+    font-size: 1.4em;
+  }
+  h4 img {
+    width: 3.3em;
+  }
+}
+
+@media (max-width: 270px) {
+  h4 img {
+    height: 2em;
+  }
+
+}
